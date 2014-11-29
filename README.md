@@ -47,16 +47,6 @@ For convenience, a shell script is provided to start multiple instances (i.e. ht
 
 ## Installation
 
-### Installing npm (node package manager)
-```
-  curl http://npmjs.org/install.sh | sh
-```
-
-### Installing routerjs
-```
-  [sudo] npm install routerjs
-```
-
 ### SSL Support
 To support SSL, point the config to your existing certificate or create a self-signed certificate.
 
