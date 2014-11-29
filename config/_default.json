@@ -1,0 +1,49 @@
+{
+  "config" : {
+
+    "web": {
+      "host": "192.168.0.2"
+    , "port": "80"
+    , "secure" : 0
+    , "secureKey" : "./keys/server_key.pem"
+    , "secureCert" : "./keys/server_crt.pem"
+    , "securePfx" : 0
+    },
+
+    "http" : {
+      "phelans.ca" :             { "host" : "192.168.0.20", "port" : 8000 }
+    , "prod.phelans.ca" :        { "host" : "192.168.0.20", "port" : 8000 }
+
+    , "ldap.phelans.ca" :        { "host" : "192.168.0.2", "port" : 8001 }
+
+    , "phast.phelans.ca" :       { "host" : "192.168.0.20", "port" : 3000 }
+
+    , "dev.phelans.ca" :         { "host" : "192.168.0.20", "port" : 8001 }
+    , "test.phelans.ca" :        { "host" : "192.168.0.20", "port" : 8002 }
+    , "cdn.phelans.ca" :         { "host" : "192.168.0.20", "port" : 8005 }
+    , "data.phelans.ca" :        { "host" : "192.168.0.20", "port" : 8004 }
+
+    , "cp" :                     { "host" : "192.168.0.12", "port" : 5050 }
+    , "cp.phelans.ca" :          { "host" : "192.168.0.12", "port" : 5050 }
+    , "couchpotato" :            { "host" : "192.168.0.12", "port" : 5050 }
+    , "couchpotato.phelans.ca" : { "host" : "192.168.0.12", "port" : 5050 }
+    , "sb" :                     { "host" : "192.168.0.12", "port" : 8081 }
+    , "sb.phelans.ca" :          { "host" : "192.168.0.12", "port" : 8081 }
+    , "sickbeard" :              { "host" : "192.168.0.12", "port" : 8081 }
+    , "sickbeard.phelans.ca" :   { "host" : "192.168.0.12", "port" : 8081 }
+    , "fossil" :                 { "host" : "192.168.0.12", "port" : 8080 }
+    , "fossil.phelans.ca" :      { "host" : "192.168.0.12", "port" : 8080 }
+    },
+
+    "https" : {
+      "phelans.ca" :         { "host" : "192.168.0.20", "port" : 8003 }
+    , "secure.phelans.ca" :  { "host" : "192.168.0.20", "port" : 8003 }
+    , "scdn.phelans.ca" :    { "host" : "192.168.0.20", "port" : 8006 }
+    },
+
+    "verbose" : {
+      "console" : 0
+    , "errors" : 1
+    }
+  }
+}

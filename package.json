@@ -1,0 +1,19 @@
+{
+  "name": "router",
+  "version": "1.0.0",
+  "description": "Simple HTTP/HTTPS Name Based Router",
+  "main": "router.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node router.js"
+  },
+  "keywords": [
+    "HTTP",
+    "Router"
+  ],
+  "author": "Kirk Freeman",
+  "license": "ISC",
+  "dependencies": {
+    "nconf": ">=0.6.9"
+  }
+}
