@@ -2,11 +2,11 @@
   "config" : {
   
     "web": {
-      "host": "192.168.0.112"
+      "host": "192.168.0.102"
     , "port": "443"
     , "secure" : 1
-    , "secureKey" : "./keys/server_key.pem"
-    , "secureCert" : "./keys/server_crt.pem"
+    , "secureKey" : "./keys/key.pem"
+    , "secureCert" : "./keys/cert.pem"
     , "securePfx" : 0
     },
     
