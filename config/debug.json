@@ -1,0 +1,19 @@
+{
+  "config" : {
+
+    "web": {
+      "host": "192.168.0.112"
+    , "port": "80"
+    , "secure" : 0
+    , "secureKey" : "./keys/server_key.pem"
+    , "secureCert" : "./keys/server_crt.pem"
+    , "securePfx" : 0
+    },
+
+
+    "verbose" : {
+      "console" : 0
+    , "errors" : 1
+    }
+  }
+}
