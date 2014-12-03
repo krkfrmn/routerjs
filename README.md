@@ -3,7 +3,7 @@
 A name-based HTTP/HTTPS router that monitors a json routing table and updates on the fly. It allows for multiple web services to be idenified via unique host/port combinations and routed by sub-domain through well known ports.
 
 ## Usage
-Using routerjs is easy; it is designed to be managed by a progression of config files that are ultimately loaded by an environment variable. A config file called _default.json is always loaded and then specific config values may be overridden by a second config file matching the set environment <env>.json.
+Using routerjs is easy; it is designed to be managed by a cascade of config files that are ultimately specified by the environment (dev/test/prod). A config file called _default.json is always loaded and then specific config values may be overridden by a second config file matching the set environment (<env>.json).
 
 For convenience, a shell script is provided to start multiple instances (i.e. http and https) of the router. The example below will start both an http and https router.
 ```
