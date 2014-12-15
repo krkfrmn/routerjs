@@ -1,6 +1,6 @@
 # routerjs
 
-A name-based HTTP/HTTPS router that monitors a json routing table and updates on the fly. It allows for multiple web services to be idenified via unique host/port combinations and routed by sub-domain through well known ports.
+A name-based HTTP/HTTPS router that monitors a json routing table and updates routes on the fly. It allows for multiple web services to be identified via host/port combinations and routed to by sub-domain through well known ports.
 
 ## Usage
 Using routerjs is easy; it is designed to be managed by a cascade of config files whose ultimate configuration is specified by the environment (dev/test/prod etc.). A config file called _default.json is always loaded and then specific config values may be overridden by a second config file matching the set environment (<env>.json).
